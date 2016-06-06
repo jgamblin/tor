@@ -5,13 +5,13 @@ Dockerfile to setup and compile tor software usgin Debian. When ran tor starts w
 
 ### Running
 
-Verbose:
+*Verbose:*
 ```bash
 $ docker run --name tor -ti -p 9150:9150 jgamblin/tor
 ```
 ![](http://i.imgur.com/03n8NE6.png)
 
-As a Dameon:
+*As a Dameon:*
 ```bash
 $ docker run  --name tor -tid -p 9150:9150 jgamblin/tor
 ```
