@@ -22,6 +22,8 @@ $ docker run  --name tor -tid -p 9150:9150 jgamblin/tor
     Server IP: 127.0.1.1
     Server port: 9150
 
+![](http://i.imgur.com/GLWqKuV.png)
+
 ### WARNING
 
 * Programing might be science; but that's not what I do. I'm a hacker, not a programmer.
