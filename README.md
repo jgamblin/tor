@@ -9,7 +9,7 @@ Verbose:
 ```bash
 $ docker run --name tor -ti -p 9150:9150 jgamblin/tor
 ```
-![Imgur](http://i.imgur.com/nUlcHDl.gif)
+![](http://i.imgur.com/03n8NE6.png)
 
 As a Dameon:
 ```bash
