@@ -15,6 +15,7 @@ As a Dameon:
 ```bash
 $ docker run  --name tor -tid -p 9150:9150 jgamblin/tor
 ```
+![](http://i.imgur.com/AaV3VL6.png)
 
 ### To use, configure your browser/client to use a SOCKS server
 
