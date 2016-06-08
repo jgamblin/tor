@@ -7,20 +7,20 @@ Dockerfile to setup and compile tor software usgin Debian. When ran tor starts w
 
 *Verbose:*
 ```bash
-$ docker run --name tor -ti -p 9150:9150 jgamblin/tor
+$ docker run --name tor -ti -p 9050:9050 jgamblin/tor
 ```
 ![](http://i.imgur.com/03n8NE6.png)
 
 *As a Dameon:*
 ```bash
-$ docker run  --name tor -tid -p 9150:9150 jgamblin/tor
+$ docker run  --name tor -tid -p 9050:9050 jgamblin/tor
 ```
 ![](http://i.imgur.com/AaV3VL6.png)
 
 ### To use, configure your browser/client to use a SOCKS server
 
     Server IP: 127.0.1.1
-    Server port: 9150
+    Server port: 9050
 
 ![](http://i.imgur.com/GLWqKuV.png)
 
